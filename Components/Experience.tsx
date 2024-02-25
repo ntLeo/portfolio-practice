@@ -3,11 +3,12 @@ import { experiencesData } from "@/lib/data";
 import SectionHeading from "./SectionHeading"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import React from "react";
+
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useEffect } from "react";
 import { useTheme } from "@/context/theme-context";
+import * as React from "react";
 
 
 const Experience = () => {
